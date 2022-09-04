@@ -77,6 +77,7 @@ $(document).ready(function(){
 
   $('.comment_slider').slick({
     slidesToShow: 2 ,
+    rows:2,
     slidesToScroll: 2,
     autoplay: true,
     arrows:false,
@@ -89,6 +90,7 @@ $(document).ready(function(){
       {
         breakpoint: 992,
         settings: {
+          rows:1,
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: false,
